@@ -1,0 +1,83 @@
+@media (min-width: 768px){
+    /* BODY */
+    body{
+        height: 100vh;
+        margin: auto;
+    }
+    
+    /* CONTAINER GERAL */
+    .containerGeral {
+        display: flex;
+    }
+
+    input{
+        width: 280px;
+    }
+
+    .containerPrevisaoAtual .flex{
+        gap: 20px;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+
+    /* CONTAINER PREVISÃO ATUAL */
+    .containerPrevisaoAtual{
+        height: 460px;
+        min-width: 420px;
+        max-width: 420px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .containerPrevisaoAtual .conteudoTempoHoje .flex{
+        gap: 40px;
+    }
+
+    #nomeCidade{
+        font-size: 40px;
+        margin: 0;
+    }
+
+    #temperaturaAtual{
+        font-size: 70px;
+        margin: 8px 0;
+    }
+
+    #temperaturaMaxHoje,
+    #temperaturaMinHoje,
+    #txtAtualPrevisao{
+        font-size: 28px;
+    }
+
+/* CONTAINER PREVISÃO 24 HORAS */
+    .containerPrevisao24Horas{
+        width: 330px;
+        height: 225px;
+        margin-top: 0;
+    }
+
+    .previsaoHora{
+        font-size: 14px;
+        gap: 30px;
+    }
+
+    .containerBtnsScroll{
+        margin-top: 28px;
+    }
+
+    /* CONTAINER PREVISÃO 5 DIAS */
+    .containerPrevisao5Dias{
+        height: 215px;
+        width: 330px;
+    }
+
+    .previsaoItem5Dias{
+        font-size: 12px;
+        height: 30px;
+    }
+
+
+}
